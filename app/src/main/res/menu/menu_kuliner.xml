@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.galuh.wisatacilacap.Kuliner">
+    <item android:id="@+id/menu_sor"
+        android:title="sort"
+        android:icon="@drawable/ic_launcher"
+        android:orderInCategory="100"
+        app:actionProviderClass="com.example.galuh.wisatacilacap.MySortActionProvider3"
+        app:showAsAction="always" />
+</menu>

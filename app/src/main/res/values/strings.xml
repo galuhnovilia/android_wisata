@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name"></string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_halamanutama">Home</string>
+    <string name="title_activity_cilacap">Menu Cilacap</string>
+    <string name="title_activity_wisata">Wisata</string>
+    <string name="title_activity_detailwisata">Detailwisata</string>
+    <string name="title_activity_alam">Alam</string>
+    <string name="title_activity_detailalam">Detailalam</string>
+    <string name="title_activity_kuliner">Kuliner</string>
+    <string name="title_activity_detailkuliner">Detailkuliner</string>
+</resources>

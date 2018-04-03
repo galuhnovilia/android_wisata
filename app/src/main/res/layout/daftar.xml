@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="10dp" >
+
+
+    <!-- menampilkan daftar negara denga widget textview -->
+    <com.android.volley.toolbox.NetworkImageView
+        android:layout_width="134dp"
+        android:layout_height="112dp"
+        android:scaleType="centerCrop"
+        android:id="@+id/image2"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="112dp"
+    android:orientation="vertical"
+    android:gravity="center">
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textColor="#000202"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp" />
+    <TextView
+        android:id="@+id/lokasi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textColor="#000202"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp" />
+</LinearLayout>
+
+</LinearLayout>
